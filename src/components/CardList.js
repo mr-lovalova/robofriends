@@ -12,7 +12,7 @@ const CardList = ({robots}) => {
                     key = {robots[i].id}
                     id = {robots[i].id}
                     name = {robots[i].name}
-                    mail = {robots[i].mail}
+                    mail = {robots[i].email}
                     />
                 );
             })
